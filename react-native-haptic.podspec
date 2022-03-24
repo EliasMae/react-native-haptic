@@ -10,8 +10,8 @@ Pod::Spec.new do |s|
   s.authors       = package['author']
   s.license       = package['license']
   s.summary       = package['description']
-  s.homepage      = 'https://github.com/charlesvinette/react-native-haptic#readme'
-  s.source        = { :git => 'https://github.com/charlesvinette/react-native-haptic.git', tag: "v#{s.version}" }
+  s.homepage      = 'https://github.com/EliasMae/react-native-haptic.git'
+  s.source        = { :git => 'https://github.com/EliasMae/react-native-haptic.git', tag: "v#{s.version}" }
 
   s.dependency 'React'
 end
